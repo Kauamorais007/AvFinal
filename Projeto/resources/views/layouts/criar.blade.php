@@ -6,7 +6,7 @@
     <title>Cadastrar Produto</title>
 </head>
 <body>
-    <form action method=post>
+    <form action="{{route ('produto_store')}}" method=post>
         @csrf 
         <h1>Cadastro de Produtos</h1>
 	<p>Nome:<input type="text" name="nome"
