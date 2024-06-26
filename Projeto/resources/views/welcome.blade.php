@@ -55,6 +55,7 @@
           <li><a class="nav-link scrollto " href="#portfolio">Produtos</a></li>
           <li><a class="nav-link scrollto" href="#team">Time</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+          <li><a href="criar">Cadastrar Produto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

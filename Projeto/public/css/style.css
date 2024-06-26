@@ -396,12 +396,28 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   border: 2px solid #85b0be;
-  color: #fff;
+  color: #15314b;
 }
 
 #hero .btn-get-started:hover {
   background: #85b0be;
   border: 2px solid #85b0be;
+}
+
+#hero .hero-cadastro {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+  color: #ffffff;
+
 }
 
 @media (min-width: 1024px) {
