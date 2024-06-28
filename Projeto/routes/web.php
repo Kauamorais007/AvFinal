@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/criar', [ProdutoController::class, 'create'])->name('produto_  create');
 Route::get('/cadastrar', [ProdutoController::class, 'store'])->name('produto_store');
 Route::post('/cadastrar', [ProdutoController::class, 'store'])->name('produto_store');
+Route::get('/editar/{id}', [ProdutoController::class, 'edit']);
+Route::post('/editar/{id}', [ProdutoController::class, 'update'])->name('alterar_produto');
+Route::get('/ver/{id}', [ProdutoController::class, 'show']);
 
 
 

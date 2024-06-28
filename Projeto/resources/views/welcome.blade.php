@@ -54,7 +54,6 @@
           <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Produtos</a></li>
           <li><a class="nav-link scrollto" href="#team">Time</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
           <li><a href="criar">Cadastrar Produto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -225,7 +224,7 @@
 
         <div class="section-title">
           <h2>Time</h2>
-          <p>Sit sint consectetur velit. Quisquam quos quisquam cupiditate</p>
+          <p>Nossa Equipe</p>
         </div>
 
         <div class="row">

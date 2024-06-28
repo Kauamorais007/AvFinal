@@ -4,14 +4,14 @@
 <link href="css/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastrar Produto</title>
+    <title>Editar Produto</title>
 </head>
 <body>
 <section id="hero">
     <div class="hero-cadastro">
-    <form action="{{route ('produto_store')}}" method=post>
-        @csrf 
-        <h1>Cadastro de Produtos</h1>
+    <form action="{{route ('alterar_produto', ['id' =>$produto->id])}}" method=post>
+    @csrf 
+        <h1>Editar Produto</h1>
 	<p>	Nome:<input type="text" name="nome"
 		pattern="[A-Za-z\sãÃéÉçÇ]{2,50}" size="30"
 		maxlength="50" required></p>
@@ -25,6 +25,7 @@
 
 </body>
 </html>	
+
 
 
 
